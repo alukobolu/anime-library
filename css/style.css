@@ -1,0 +1,316 @@
+body{
+    background-color: black;
+    color:white;
+    padding-top: 0%;
+    padding-left:10%;
+    padding-right: 10%;
+}
+
+@media only screen and (max-device-width: 960px) {
+    body{
+        padding-left: 0.2%;
+        padding-right: 0.2%;
+    }
+    body .top{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    body .top .row .label{
+        color:rgb(22, 172, 22) ;
+        
+    } 
+}
+/* ----------------------top----------------------------- */
+body .top .row .row button{
+    background-color: transparent;
+    border: none;
+    display: none;
+}
+body .top .row .row button:focus,
+body .top .row .row button:active{
+    border: none;
+}
+body .top .row .row button i{
+    color: rgb(22, 172, 22);
+}
+body .top .row .label{
+    color:rgb(22, 172, 22) ;
+} 
+body .top .row form{
+    float: right !important; 
+}
+body  .input-group{
+    margin-top: 10px;
+    color:white;
+}
+body .input-group input{
+    border: 1px solid rgb(22, 172, 22);
+    background-color: black;
+}
+body {
+    border: 1px solid rgb(22, 172, 22);
+    border-bottom: none;
+}
+.user{
+    float: right;
+    font-size: 15px;
+    color: rgb(158, 155, 155);
+}
+.user a{
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(158, 155, 155);
+}
+.user a:hover{
+    text-decoration: none;
+    color: rgb(22, 172, 22);
+}
+.smalluser{
+    display: none;
+}
+.biguser{
+    display: block;
+}
+@media only screen and (max-device-width: 575px) {
+    .smalluser{
+        display: block;
+        margin-top: 10px;
+    }
+    .biguser{
+        display: none;
+    }
+}
+@media only screen and (max-device-width: 411px) {
+    .smalluser{
+        display: none;
+    }
+    .biguser{
+        display: none;
+    }
+    body .top .row form{
+        display: none;
+    }
+    body .top .row .row .col-7{
+        float: right;
+    }
+    body .top .row .row button{
+        display: block;
+    }
+}
+/* -----------------------main content------------------------------------ */
+.main{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    border: 1px solid rgb(22, 172, 22);
+    width: 100%;
+    height: 100%;
+    background-color: rgb(34, 33, 33);
+}
+@media only screen and (max-device-width: 411px) {
+    .main {
+        padding-left: 13.5px;
+        padding-right: 13.5px;
+        padding-bottom: 0px;
+        border: none;
+    }
+}
+/* ---------------------main top------------------------ */
+@media (min-width: 412px){
+    .navbar-expand-lg .navbar-nav {
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+}
+@media only screen and (max-device-width: 411px) {
+    .main .menu{
+        display: none;
+    }
+}
+.main .menu ul {
+    list-style-type: none;
+    margin-block-start: 0.5em;
+    margin-block-end: 1.3em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 1px;
+}
+.main .menu nav ul li a{
+    list-style: none !important;
+    display: inline-block !important;
+    margin-right: 20px !important;
+    margin-left: 20px; 
+    font-weight: 450;
+    text-decoration: none;
+    color: white !important;
+}
+.main .menu nav ul li a:hover{
+    color: rgb(22, 172, 22) !important;
+    border-bottom: 2px solid rgb(22, 172, 22);
+    font-weight: 450 !important;
+}
+.main .menu nav ul .active a{
+    color: rgb(22, 172, 22) !important;
+    border-bottom: 2px solid rgb(22, 172, 22);
+    font-weight: 450 !important;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(22, 172, 22) !important;
+} 
+/* --------------------------main  anime category--------------------------- */
+.main .animeWorld .anime{
+    border: 1px solid rgb(22, 172, 22);
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+/* --------------------------main  anime heading--------------------------- */
+.main .animeWorld .anime .heading{
+    background-color: rgb(22, 172, 22);
+    width:100%;
+    height: 30px;
+    padding-left: 10px;
+}
+.main .animeWorld .anime .heading .row .list {
+    list-style-type: none;
+    margin-top: 3px;
+    display: none;
+    width: 100%;
+}
+.main .animeWorld .anime .heading .row .list  a{
+    text-decoration: none;
+    color: white;
+    display:inline;
+}
+.main .animeWorld .anime .heading .row .list  a li{
+    display: inline;
+    margin-right: 10px;
+}
+@media only screen and (max-device-width: 411px) {
+    .main .animeWorld .anime .heading .row .list {
+        display: block;
+    }
+}
+/* --------------------------main anime cards--------------------------- */
+.main .animeWorld .anime .content{
+    padding: 10px;
+}
+.main .animeWorld .anime .content .card{
+    border-radius: 0% !important;
+    background-color: transparent;
+    border: none !important;
+}
+.main .animeWorld .anime .content .card img{
+    height: 180px; background-color: transparent;
+}
+.main .animeWorld .anime .content .card .card-body a{
+    text-decoration: none;
+    color: white;
+}
+.main .animeWorld .anime .content .card .card-body a:hover{
+    color: rgb(22, 172, 22);
+}
+.main .animeWorld .anime .content .card .card-body{
+    padding-top: 10px !important;
+}
+/* --------------------------main anime pagination--------------------------- */
+.pagination {
+    float: right;
+    margin-right:5px;
+    margin-bottom: 5px;
+}
+  .pagination a {
+    color: white;
+    padding: 3px;
+    border: 1px solid  rgb(22, 172, 22);
+    text-decoration: none;
+} 
+  .pagination a:hover {
+    background-color: rgb(22, 172, 22);
+    border-radius: 0px;
+  }
+  .main .animeWorld .anime .ending{
+    width:100%;
+    height: 30px;
+    padding-left: 10px;
+}
+/* --------------------------main adverts category--------------------------- */
+.main .animeWorld .advert{
+    border: 1px solid rgb(22, 172, 22);
+    height: 47%;
+}
+.main .animeWorld .advert{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.main .animeWorld .advert .carousel-inner .carousel-item img{
+    height: 50% !important;
+}
+/* --------------------------main  advert heading--------------------------- */
+.main .animeWorld .advert .heading{
+    background-color: rgb(22, 172, 22);
+    width:100%;
+    height: 30px;
+    padding-left: 10px;
+}
+/* --------------------------main advert2 category--------------------------- */
+.main .animeWorld .advert2{
+    border: 1px solid rgb(22, 172, 22);
+    height: 47%;
+    margin-top: 6%;
+    
+}
+.main .animeWorld .advert2{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    overflow-y: auto;
+}
+
+.main .animeWorld .advert2 .content{
+    width: 100%;
+    padding: 5px;
+    
+}
+.main .animeWorld .advert2 .content a{
+    text-decoration: none;
+    color: white;
+    
+}
+.main .animeWorld .advert2 .content a li{
+    list-style-type: none;
+    
+    font-size: 12px;
+}
+/* --------------------------main  advert2 heading--------------------------- */
+.main .animeWorld .advert2 .heading{
+    background-color: rgb(22, 172, 22);
+    width:100%;
+    height: 30px;
+    padding-left: 10px;
+    position: static;;
+    z-index: 1;
+
+}
+/* ---------------------------------------------------------------------- */
+/* -----------------------------series---------------------------------- */
+.main .animeWorld .anime .content .anime_info img{
+    height: 350px;
+    margin-bottom: 20px;
+}
+.main .animeWorld .anime .content .anime_info .text_info p{
+    font-size: 12px;
+}
+.main .animeWorld .anime .content .mb-1 .episodes{
+    background-color: black;
+    height: 30px;
+    padding-top: 5px;
+    font-size: 12px;
+    text-align: center;
+}
+.main .animeWorld .anime .content .mb-1 .episodes:hover{
+    background-color: rgb(22, 172, 22);
+    cursor: pointer;
+}
+.main .animeWorld .anime .content .mb-1 .episodes i:hover{
+    color: black;
+}
